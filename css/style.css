@@ -34,7 +34,7 @@ body{
 }
 
 .header {
-    background-image: url(images/desktop/image-header.jpg);
+    background-image : url("../images/desktop/image-header.jpg");
     background-size: cover;
     background-position: bottom;
     height: 102vh;
@@ -96,11 +96,11 @@ a.contact {
 
 }
 .img-egg{
-    background-image: url(/images/desktop/image-transform.jpg);
+    background-image: url("images/desktop/image-transform.jpg");
 }
 
 .img-stand-out{
-    background-image: url(/images/desktop/image-stand-out.jpg);
+    background-image: url("images/desktop/image-stand-out.jpg");
 }
 .title-section {
     font-size: 2.4rem;
@@ -125,10 +125,10 @@ a.contact {
 }
 
 .design-graphic{
-    background-image: url(/images/desktop/image-graphic-design.jpg);
+    background-image: url("images/desktop/image-graphic-design.jpg");
 }
 .desing-photography{
-    background-image: url(/images/desktop/image-photography.jpg);
+    background-image: url("images/desktop/image-photography.jpg");
 }
 .img-geral{
     height: 33.333rem;
@@ -224,16 +224,16 @@ a.contact {
 }
 
 .milk-bottles{
-    background-image: url(/images/desktop/image-gallery-milkbottles.jpg);
+    background-image: url("images/desktop/image-gallery-milkbottles.jpg");
 }
 .oranges{
-    background-image: url(/images/desktop/image-gallery-orange.jpg);
+    background-image: url("images/desktop/image-gallery-orange.jpg");
 }
 .cone{
-    background-image: url(/images/desktop/image-gallery-cone.jpg);
+    background-image: url("images/desktop/image-gallery-cone.jpg");
 }
 .sugarcubes{
-    background-image: url(/images/desktop/image-gallery-sugarcubes.jpg);
+    background-image: url("images/desktop/image-gallery-sugarcubes.jpg");
 }
 
 .footer{
