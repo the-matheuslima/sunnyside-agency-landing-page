@@ -1,0 +1,73 @@
+@media (max-width:738px) { 
+    .header{
+        background-image: url(../images/mobile/image-header.jpg);
+    }
+    .header-title {
+        width: 357px;
+        text-align: center;
+        letter-spacing: 0.3rem;
+    }
+    .layout {
+        padding-top: 30px;
+    }
+
+    .testimonials{
+        margin-top: 1796px;
+    }
+    .testimonials-title{
+        letter-spacing: 0.1rem;
+    }
+
+    .testimonials-cards {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+    .client-comment{
+        text-align: center;
+    }
+    .testimonials-gallery{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .gallery{
+        height: 300px;
+    }
+}
+
+@media (max-width:437px){
+    .header-title{
+        font-size: 2.2rem;
+    }
+    .box{
+        width: 370px;
+    }
+}
+
+@media (max-width:686px) {
+    .services{
+        grid-template-columns:repeat(1,1fr)
+    }
+    .egg{
+        grid-row: 2;
+    }
+    .box{
+        width: 361px;
+        height: 388px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .description-text {
+        text-align: center;
+    }
+    .title-section {
+        text-align: center;
+    }
+}
+
+@media (max-width:554px){
+    .navbar-item{
+        display: none;
+    }
+}
