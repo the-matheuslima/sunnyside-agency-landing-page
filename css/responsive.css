@@ -11,9 +11,6 @@
         padding-top: 30px;
     }
 
-    .testimonials{
-        margin-top: 1796px;
-    }
     .testimonials-title{
         letter-spacing: 0.1rem;
     }
@@ -51,7 +48,7 @@
         grid-row: 2;
     }
     .box{
-        width: 361px;
+        width: 98%;
         height: 388px;
         display: flex;
         flex-direction: column;
