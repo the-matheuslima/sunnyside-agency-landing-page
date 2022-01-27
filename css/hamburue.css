@@ -1,6 +1,6 @@
 .navbar-mobile{  
-    cursor: pointer;
     display: none;
+    cursor: pointer;
 }
 
 @media (max-width:618px){  
