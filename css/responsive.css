@@ -63,8 +63,3 @@
     }
 }
 
-@media (max-width:554px){
-    .navbar-item{
-        display: none;
-    }
-}

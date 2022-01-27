@@ -1,0 +1,36 @@
+.navbar-mobile{  
+    cursor: pointer;
+}
+
+@media (max-width:618px){  
+    body{
+     overflow-x: hidden;
+    }
+    .navbar-item{  
+        position: absolute;
+        top: 10vh;
+        right: 42px;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 0px 0px 0px 20px;
+        transition: transform 0.3s ease-in;
+        transform: translate(129%);
+        width: 81%;
+        align-items: center;
+        padding: 20px 0;
+     }  
+    .nav-change{  
+      transform:translate(0%);  
+     }  
+    .navbar-mobile{  
+      display:block;  
+     }  
+
+     .navbar-itens a {
+        color: var(--Dark-grayish-lue);
+    }
+    a.contact {
+        background-color: var(--Yellow);
+        color: var(--black);
+    }
+}
